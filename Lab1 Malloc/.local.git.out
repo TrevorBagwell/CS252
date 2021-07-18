@@ -1,0 +1,679 @@
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 9d5dabc] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 60 insertions(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 5697e9c] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 1f7d7b4] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 7cba5b4] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master db641f1] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 7c2ffe9] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master d3de182] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 40 insertions(+), 19 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 768c88a] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 11 insertions(+), 44 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master f8cc661] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 73 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 4316d40] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 0f61128] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master e107bb1] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 3389560] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 5555619] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master fbb8ca9] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 12 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 962cf79] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 2384c26] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 4b47339] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 5192cc3] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master a2ea7d1] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+M	myMalloc.c
+M	myMalloc.h
+Your branch is up to date with 'origin/master'.
+[master 760dd1e] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 124 insertions(+), 10 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 0cddc9c] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master e8c23a6] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 860e7fe] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 4e0d876] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+Your branch is up to date with 'origin/master'.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	.local.git.out
+
+nothing added to commit but untracked files present
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master d4dcae2] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@escher11.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 35 files changed, 2 insertions(+), 13 deletions(-)
+M	.local.git.out
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master fd52cc3] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 35 files changed, 63 insertions(+), 65 deletions(-)
+M	.local.git.out
+Your branch is up to date with 'origin/master'.
+[master 26e46df] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@pod3-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+M	.local.git.out
+M	tests/test_all_lists
+M	tests/test_coalesce_chunk_coalesce
+M	tests/test_coalesce_chunk_insert
+M	tests/test_corrupted_canary
+M	tests/test_double_free
+M	tests/test_exact
+M	tests/test_free_both
+M	tests/test_free_even
+M	tests/test_free_insert
+M	tests/test_free_left
+M	tests/test_free_null
+M	tests/test_free_odd
+M	tests/test_free_right
+M	tests/test_insert_chunk
+M	tests/test_large
+M	tests/test_locks
+M	tests/test_malloc_large
+M	tests/test_malloc_too_large
+M	tests/test_malloc_zero
+M	tests/test_multi_malloc
+M	tests/test_out_of_ram
+M	tests/test_random
+M	tests/test_random_sizes
+M	tests/test_simple0
+M	tests/test_simple1
+M	tests/test_simple2
+M	tests/test_simple3
+M	tests/test_simple4
+M	tests/test_simple5
+M	tests/test_simple6
+M	tests/test_split
+M	tests/test_verify
+M	tests/test_very_large
+Your branch is up to date with 'origin/master'.
+[master 859e2a3] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 34 files changed, 50 insertions(+)
+M	.local.git.out
+A	1
+D	examples/composite_ex
+D	examples/constructor_ex
+D	tests/test_all_lists
+D	tests/test_coalesce_chunk_coalesce
+D	tests/test_coalesce_chunk_insert
+D	tests/test_corrupted_canary
+D	tests/test_double_free
+D	tests/test_exact
+D	tests/test_free_both
+D	tests/test_free_even
+D	tests/test_free_insert
+D	tests/test_free_left
+D	tests/test_free_null
+D	tests/test_free_odd
+D	tests/test_free_right
+D	tests/test_insert_chunk
+D	tests/test_large
+D	tests/test_locks
+D	tests/test_malloc_large
+D	tests/test_malloc_too_large
+D	tests/test_malloc_zero
+D	tests/test_multi_malloc
+D	tests/test_out_of_ram
+D	tests/test_random
+D	tests/test_random_sizes
+D	tests/test_simple0
+D	tests/test_simple1
+D	tests/test_simple2
+D	tests/test_simple3
+D	tests/test_simple4
+D	tests/test_simple5
+D	tests/test_simple6
+D	tests/test_split
+D	tests/test_verify
+D	tests/test_very_large
+Your branch is up to date with 'origin/master'.
+[master b9c853b] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 37 files changed, 983 insertions(+)
+ create mode 100644 1
+ delete mode 100755 examples/composite_ex
+ delete mode 100755 examples/constructor_ex
+ delete mode 100755 tests/test_all_lists
+ delete mode 100755 tests/test_coalesce_chunk_coalesce
+ delete mode 100755 tests/test_coalesce_chunk_insert
+ delete mode 100755 tests/test_corrupted_canary
+ delete mode 100755 tests/test_double_free
+ delete mode 100755 tests/test_exact
+ delete mode 100755 tests/test_free_both
+ delete mode 100755 tests/test_free_even
+ delete mode 100755 tests/test_free_insert
+ delete mode 100755 tests/test_free_left
+ delete mode 100755 tests/test_free_null
+ delete mode 100755 tests/test_free_odd
+ delete mode 100755 tests/test_free_right
+ delete mode 100755 tests/test_insert_chunk
+ delete mode 100755 tests/test_large
+ delete mode 100755 tests/test_locks
+ delete mode 100755 tests/test_malloc_large
+ delete mode 100755 tests/test_malloc_too_large
+ delete mode 100755 tests/test_malloc_zero
+ delete mode 100755 tests/test_multi_malloc
+ delete mode 100755 tests/test_out_of_ram
+ delete mode 100755 tests/test_random
+ delete mode 100755 tests/test_random_sizes
+ delete mode 100755 tests/test_simple0
+ delete mode 100755 tests/test_simple1
+ delete mode 100755 tests/test_simple2
+ delete mode 100755 tests/test_simple3
+ delete mode 100755 tests/test_simple4
+ delete mode 100755 tests/test_simple5
+ delete mode 100755 tests/test_simple6
+ delete mode 100755 tests/test_split
+ delete mode 100755 tests/test_verify
+ delete mode 100755 tests/test_very_large
+M	myMalloc.c
+Your branch is up to date with 'origin/master'.
+[master 66a4a42] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 34 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100755 tests/test_double_free
+M	.local.git.out
+M	tests/test_out_of_ram
+Your branch is up to date with 'origin/master'.
+[master 724b5e9] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 19 insertions(+)
+M	.local.git.out
+M	runtest.py
+Your branch is up to date with 'origin/master'.
+[master 66711a4] Commit
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 21 insertions(+)

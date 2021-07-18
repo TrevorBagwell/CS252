@@ -1,0 +1,5 @@
+#!/bin/bash
+
+eval ps -u $USER o nlwp,pid,cmd;
+
+

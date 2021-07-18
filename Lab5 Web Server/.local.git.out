@@ -1,0 +1,2263 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	.local.git.out
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	myhttpd
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master b3bf79d] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 81 insertions(+)
+ create mode 100644 defines.h
+[master 20128f6] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master a164a3a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+)
+[master 761d2eb] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 24 insertions(+), 5 deletions(-)
+[master 20980cc] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 14 insertions(+), 8 deletions(-)
+[master 5e26936] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 55 insertions(+), 2 deletions(-)
+[master adeddec] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 162 insertions(+), 11 deletions(-)
+[master b93ff4a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+[master ae08e64] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 349 insertions(+), 45 deletions(-)
+[master 980596e] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+), 3 deletions(-)
+[master ca19be8] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 196 insertions(+), 104 deletions(-)
+ rewrite defines.h (67%)
+[master a1400bf] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master 44b015e] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+), 25 deletions(-)
+[master ed48cfa] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+[master 6bfc12e] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 8 insertions(+), 10 deletions(-)
+[master 1221219] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 133 insertions(+), 26 deletions(-)
+[master 414b67a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 8 insertions(+), 654 deletions(-)
+ delete mode 100644 myhttpd.cc
+[master 4ae9361] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 587 insertions(+)
+ create mode 100644 myhttpd.cc
+[master 635b468] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 112 insertions(+), 31 deletions(-)
+[master 6ac526d] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 265 insertions(+), 20 deletions(-)
+[master 08e2149] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 73b21cc] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@sslab02.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 11 insertions(+), 3 deletions(-)
+[master 6e20492] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+[master b530313] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 6 insertions(+), 3 deletions(-)
+[master c4ae73c] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 deletions(-)
+[master e803445] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 123 insertions(+), 109 deletions(-)
+[master b683091] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 20 insertions(+), 4 deletions(-)
+[master 6aa5906] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+[master 3074395] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master bc1c0ac] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+), 10 deletions(-)
+[master 60b7d7e] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+[master 1731b99] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master c32dbfc] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+[master aff2838] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 67 insertions(+), 34 deletions(-)
+[master c7247e4] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master 4ae1969] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 9 insertions(+), 19 deletions(-)
+[master 1633c2d] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+[master 2fee436] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master bd6e6d2] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 141 insertions(+), 16 deletions(-)
+[master 22c34ad] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 40 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.local.git.out
+	.myhttpd.cc.swp
+	HOWTOTEST
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	myhttpd
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+	~
+
+nothing added to commit but untracked files present
+[master a6ef124] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 deletion(-)
+[master 38f2eca] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 17 insertions(+), 8 deletions(-)
+[master d919d64] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master 06c7cc1] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 44 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.local.git.out
+	.myhttpd.cc.swp
+	HOWTOTEST
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	myhttpd
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+	~
+
+nothing added to commit but untracked files present
+[master 8b1ee21] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+), 7 deletions(-)
+[master a04aa5a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6c46346] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 3dec227] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master d19ca6e] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 6e6df3d] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+[master 31f0fc5] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0a6d035] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 5e857c9] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 26 insertions(+), 1 deletion(-)
+[master ba0630a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 21 insertions(+), 10 deletions(-)
+[master 2e23e6a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master f35336b] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master fe14a67] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+[master 769ffc3] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 4b9f1db] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+[master 499610e] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+[master 3988e43] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 1ae80e9] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master eb87f84] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 51488df] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master d201d00] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master 6605f92] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+[master 21466f0] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 9 insertions(+), 3 deletions(-)
+[master 5c910f7] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 5c232e2] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 3b6c265] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 38964dd] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 89a365f] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 72 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.defines.h.swp
+	.local.git.out
+	.myhttpd.cc.swp
+	HOWTOTEST
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	myhttpd
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+	~
+
+nothing added to commit but untracked files present
+[master 1d8966b] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore09.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 62a1b6b] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 18 insertions(+), 34 deletions(-)
+[master f3ed1ed] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+[master bc83306] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master 98caae0] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 7b8ed29] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+[master e3990cb] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 12 insertions(+), 2 deletions(-)
+[master 08d40be] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master e040a2b] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+[master 8edb96c] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 31 insertions(+), 32 deletions(-)
+ create mode 100644 directory.cc
+ create mode 100644 directory.h
+[master bcd0bce] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 288e2fd] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 8 insertions(+), 2 deletions(-)
+ create mode 100644 server.cc
+ create mode 100644 server.h
+ create mode 100644 socket.cc
+ create mode 100644 socket.h
+[master 5a96623] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@moore16.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 3 insertions(+), 6 deletions(-)
+[master 67603ff] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 66 insertions(+), 258 deletions(-)
+ create mode 100644 client.cc
+ delete mode 100644 directory.h
+ delete mode 100644 server.h
+ delete mode 100644 socket.h
+[master 229f5b7] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 130 insertions(+)
+[master 0416f44] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 216 insertions(+), 44 deletions(-)
+[master 944c8c7] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 248e3f6] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 16 insertions(+), 8 deletions(-)
+[master 2de8230] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 54163f2] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 54 insertions(+), 29 deletions(-)
+[master 948ed9a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 21e0be1] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master af19e26] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master 23d7d95] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+[master 3cf810f] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 8d9db3c] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+[master d7e1a0e] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 70 insertions(+), 65 deletions(-)
+[master 12cb85c] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[master efce4b2] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 3472c1d] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+), 12 deletions(-)
+[master db6d697] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 51 insertions(+), 4 deletions(-)
+[master 2d8344a] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+[master df68587] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+[master 6512cbd] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@pod1-4.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master 41d6499] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+[master ebc2610] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 42 insertions(+), 12 deletions(-)
+[master e2455ad] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 0eb14bd] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 21 deletions(-)
+[master 3d671e8] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6f8ef11] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 47acc5d] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master dde67c8] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 114 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master ed7ed1b] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master b97b86f] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 116 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is ahead of 'origin/master' by 116 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is ahead of 'origin/master' by 116 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master 41b7dc7] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 117 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	.myhttpd.cc.swp
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master 79401fc] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 118 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	.myhttpd.cc.swp
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master c8c7a6d] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 119 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	.myhttpd.cc.swp
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master cf8f076] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 120 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	.myhttpd.cc.swp
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master ec08dea] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master e70dd46] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+[master e42a0ff] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 1ad1584] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 4748d57] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+[master 858615b] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+[master cba07f3] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 127 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+	.hh
+	.local.git.out
+	.myhttpd.cc.swp
+	client.hh
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	directory.hh
+	hello.o
+	hello.so
+	myclasses.txt
+	myhttpd
+	myhttpd.o
+	ps_threads
+	server.hh
+	socket.hh
+	sub/
+	test.txt
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master 0578a74] Commit Web Server
+ Committer: Trevor Daniel Bagwell <tbagwel@escher06.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
